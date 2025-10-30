@@ -17,12 +17,12 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/demo-banner.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
+		src: "assets/images/demo-banner.png",
+		position: "top",
 		credit: {
-			enable: true, // Display the credit text of the banner image
-			text: "test", // Credit text to be displayed
-			url: "", // (Optional) URL link to the original artwork or artist's page
+			enable: true,
+			text: "白石杏お誕生日おめでとう!",
+			url: "https://www.pixiv.net/en/artworks/120892090",
 		},
 	},
 	toc: {
