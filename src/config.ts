@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/demo-banner.png",
+		src: "assets/images/banner.png",
 		position: "top",
 		credit: {
 			enable: true,
@@ -53,21 +53,24 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "assets/images/avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "Khavid",
 	bio: "Computer Science VGU'26, interested in Blue team Cybersecurity",
 	links: [
 		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
-			// You will need to install the corresponding icon set if it's not already included
-			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://x.com/KhavidNgo",
+			name: "Facebook",
+			icon: "fa6-brands:facebook",
+			url: "https://www.facebook.com/khavid.bap/",
+		},
+		{
+			name: "X (Twitter)",
+			icon: "fa6-brands:x-twitter",
+			url: "https://x.com/KhavidNgo/",
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/KhavidBap",
+			url: "https://github.com/KhavidBap/",
 		},
 	],
 };
