@@ -10,10 +10,10 @@ import { LinkPreset } from "./types/config";
 export const siteConfig: SiteConfig = {
 	title: "Fuwari",
 	subtitle: "Demo Site",
-	lang: "en", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
+	lang: "en",
 	themeColor: {
 		hue: 70, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
-		fixed: true, // Hide the theme color picker for visitors
+		fixed: true,
 	},
 	banner: {
 		enable: true,
@@ -55,7 +55,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "Khavid",
-	bio: "CSE VGU'26, interested in Blue team Cybersecurity",
+	bio: "Computer Science VGU'26, interested in Blue team Cybersecurity",
 	links: [
 		{
 			name: "Twitter",
