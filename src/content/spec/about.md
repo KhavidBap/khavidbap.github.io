@@ -1,9 +1,16 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+Hello everyone! (。・∀・)ノ 
 
-::github{repo="saicaca/fuwari"}
+My name is **Ngo Duc Minh Khoa**, you can call me **Khoa** or **Khavid** or **Bắp**. 
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+4th-year Computer Science `@Vietnamese-German University`. Head of Technical team [`@VGU Cypher`](https://www.facebook.com/vgu.cypher).
+
+Interested in Forensics, OSINT and Reverse engineering. Mainly play with [`#MogamiShizuka`](https://ctftime.org/team/282871) and [`VGU_Cypher`](https://ctftime.org/team/363979).
+
+::github{repo="KhavidBap/KhavidBap"}
+
+> ### Feel free to reach out to me via:
+> - Facebook
+> - Discord
+> - LinkedIn
+> - Email: :spoiler[[`lemaithykhoa@gmail.com`](mailto:lemaithykhoa@gmail.com)]

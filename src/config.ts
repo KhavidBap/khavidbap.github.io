@@ -8,11 +8,11 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Fuwari",
-	subtitle: "Demo Site",
+	title: "Khavid",
+	subtitle: "Khavid's blog",
 	lang: "en",
 	themeColor: {
-		hue: 70, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+		hue: 70,
 		fixed: true,
 	},
 	banner: {
@@ -30,12 +30,9 @@ export const siteConfig: SiteConfig = {
 		depth: 2, // Maximum heading depth to show in the table, from 1 to 3
 	},
 	favicon: [
-		// Leave this array empty to use the default favicon
-		// {
-		//   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
-		//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-		// }
+		{
+			src: '/favicon/favicon-sunflower.png',              
+		}
 	],
 };
 
@@ -45,32 +42,37 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		LinkPreset.About,
 		{
-			name: "smth",
-			url: "https://github.com/saicaca/fuwari", // Internal links should not include the base path, as it is automatically added
-			external: true, // Show an external link icon and will open in a new tab
+			name: "HackMD",
+			url: "https://hackmd.io/@khavid",
+			external: true,
 		},
 	],
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "assets/images/avatar.png",
 	name: "Khavid",
 	bio: "Computer Science VGU'26, interested in Blue team Cybersecurity",
 	links: [
 		{
 			name: "Facebook",
-			icon: "fa6-brands:facebook",
+			icon: "fa6-brands:square-facebook",
 			url: "https://www.facebook.com/khavid.bap/",
 		},
 		{
 			name: "X (Twitter)",
-			icon: "fa6-brands:x-twitter",
+			icon: "fa6-brands:square-x-twitter",
 			url: "https://x.com/KhavidNgo/",
 		},
 		{
 			name: "GitHub",
-			icon: "fa6-brands:github",
+			icon: "fa6-brands:square-github",
 			url: "https://github.com/KhavidBap/",
+		},
+		{
+			name: "LinkedIn",
+			icon: "fa6-brands:linkedin",
+			url: "https://www.linkedin.com/in/khavidngo/",
 		},
 	],
 };
