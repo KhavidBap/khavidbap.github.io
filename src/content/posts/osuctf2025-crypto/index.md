@@ -1,9 +1,9 @@
 ---
-title: osu!gaming CTF 2025 - Crypto
+title: (EN) osu!gaming CTF 2025 - Crypto
 published: 2025-10-31
 description: 'Writeup for all solved Crypto challenge in osu!gaming CTF 2025 by #MogamiShizuka'
 image: './osuctf2025x2.jpg'
-tags: [Cryptography]
+tags: [English, Cryptography]
 category: 'Writeup'
 draft: false 
 lang: 'en'
@@ -15,7 +15,7 @@ lang: 'en'
 
 As the title mentioned, we can see that ROT727 is almost similar to ROT13. So we can put that in some decoder to brute-force the ROT, and the flag is encrypted in ROT14.
 
-Flag: :spoiler[osu{oh_wait_bigger_number_doesnt_mean_more_secure}]
+**Flag: :spoiler[osu{oh_wait_bigger_number_doesnt_mean_more_secure}]**
 
 # beyond-wood
 
@@ -110,7 +110,7 @@ if __name__ == "__main__":
     main()
 ```
 
-Flag: :spoiler[osu{h1_05u_d351gn_t34m}]
+**Flag: :spoiler[osu{h1_05u_d351gn_t34m}]**
 
 # xnor-xnor-xnor
 
@@ -178,7 +178,7 @@ t = bytes(c[i] ^ mask[i % 4] for i in range(len(c)))
 print(t.decode())
 ```
 
-Flag: :spoiler[osu{b3l0v3d_3xclus1v3_my_b3l0v3d}]
+**Flag: :spoiler[osu{b3l0v3d_3xclus1v3_my_b3l0v3d}]**
 
 # pls-nominate
 
@@ -239,7 +239,7 @@ i = b.find(b"osu{")
 print(b[i:i + 200].decode() if i != -1 else b[:200])
 ```
 
-Flag: :spoiler[osu{pr3tty_pl3453_w1th_4_ch3rry_0n_t0p!?:pleading:}]
+**Flag: :spoiler[osu{pr3tty_pl3453_w1th_4_ch3rry_0n_t0p!?:pleading:}]**
 
 # linear-feedback
 
@@ -291,7 +291,7 @@ key1 = 776071    #binary 10111101101001000111 as a 21-bit string
 key2 = 340835109 #binary 0101000100010010101100010110101 as a 29-bit string
 ```
 
-Flag: :spoiler[osu{th1s_hr1_i5_th3_m0st_fun_m4p_3v3r_1n_0wc}]
+**Flag: :spoiler[osu{th1s_hr1_i5_th3_m0st_fun_m4p_3v3r_1n_0wc}]**
 
 # ssss
 
@@ -527,4 +527,4 @@ if __name__ == "__main__":
     main()
 ```
 
-Flag: :spoiler[osu{0n3_hundr3d_p3rc3nt_4ccur4cy!}]
+**Flag: :spoiler[osu{0n3_hundr3d_p3rc3nt_4ccur4cy!}]**
